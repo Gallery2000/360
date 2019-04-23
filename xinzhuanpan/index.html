@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html style="font-size: 40px;">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="layoutmode" content="standard">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="renderer" content="webkit">
+    <title>幸运转盘</title>
+    <link rel="stylesheet" type="text/css" href="/common/css/reset.css">
+    <link rel="stylesheet" href="/common/css/swiper.min.css">
+    <script src="/common/js/swiper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./common.css">
+    <script type="text/javascript" src="/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/common/js/awardRotate.js"></script>
+    <link rel="stylesheet" type="text/css" href="/common/css/alertCommon.css"/>
+    <script type="text/javascript" src="./common.js"></script>
+    <link rel="stylesheet" type="text/css" href="/common/css/hdgg.css" />
+    <script type="text/javascript" charset="utf-8" src="/common/js/hdgg.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="turnplate">
+            <canvas class="item" id="wheelcanvas" width="422px" height="422px"></canvas>
+            <img id="pointer" class="pointer" src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/jt2.png" />
+            <div class="bian active"></div>
+            <div class="zhe"></div>
+            <div class="ding"></div>
+        </div>
+    </div>
+    <div class="counts">抽奖机会剩余<span id="countZa">8</span>次</div>
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/4.png" id="shan-img" style="display:none;" />
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan3/28.png" id="diy2-img" style="display:none;" />
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/555.png" id="diy1-img" style="display:none;" />
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/6.png" id="diy3-img" style="display:none;" />
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/7.png" id="diy4-img" style="display:none;" />
+    <img src="https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/8.png" id="diy5-img" style="display:none;" />
+
+    <div class="rule"></div>
+    <div class="jiang"></div>
+    <div class="alerty">
+        <div class="notice">
+            <div class="saclose"></div>
+            <h1 class="ntile1"></h1>
+            <div class="contant">
+                <h1 class="title font14">活动说明：</h1>
+                <p class="font14">参与活动即有机会获得幸运奖~每天抽奖机会8次免费。此活动为概率中奖，奖品数量有限，祝好运！ </p>
+                <p>惊喜一：iPhone X</p>
+                <p>惊喜二：188元现金</p>
+                <p>惊喜三：28元现金</p>
+                <p>惊喜四：幸运福袋</p>
+                <h1 class="title font14">重要声明：</h1>
+                <p>1.奖品将在活动结束后5-10个工作日安排发放,请耐心等待</p>
+                <p>2.优惠券类奖品的使用规则详见每个优惠券的介绍页</p>
+                <p>3.通过非法途径获得奖品的,主办方有权不提供奖品</p>
+                <div class="moresay">中奖概率说明<i></i></div>
+                <div class="moresayp">
+                    <p>•iPhone X共1份，中奖概率0.001%; </p>
+                    <p>•188元幸运礼包共1份，中奖概率0.002%; </p>
+                    <p>•28元幸运礼包共4份,中奖概率0.004%;</p>
+                    <p>•幸运福袋,中奖概率99.993%;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="zhenotice"></div>
+</body>
+
+</html>
+s
