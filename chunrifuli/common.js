@@ -6,8 +6,8 @@ var play = null;
 $(function() {
 	FZ(20, 375);
 	var hdgg = new HDGG({
-        appkey: "06b0621e8e4cb2079e83255adab12b59",
-        adSpaceKey:"528c0ef8159c60aeaa772ddc9d6dc861",
+		appkey: "06b0621e8e4cb2079e83255adab12b59",
+		adSpaceKey:"528c0ef8159c60aeaa772ddc9d6dc861",
 		times: 8,
 		timesEle: '#countZa',
 		recordEle: '.jiang',
@@ -126,7 +126,7 @@ $(function() {
 				"height": "14.525rem",
 				"background-size": "100%",
 				"z-index": "2",
-				"background-image": "url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbaobg.png)"
+				"background-image": "url(./images/hongbao.png)"
 
 			})
 			$('.startb').hide();
@@ -148,7 +148,7 @@ $(function() {
 					"margin-left": "0",
 					"background-size": "100%",
 					"z-index": "1"
-				}, 600).css("background-image", "url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbaobg.png)");
+				}, 600).css("background-image", "url(./images/hongbaobg.png)");
 			}, 400);
 			setTimeout(function() {
 				$second.animate({
@@ -171,7 +171,7 @@ $(function() {
 					"height": "14.8rem",
 					"background-size": "100%",
 					"z-index": "2"
-				}, 600).css("background-image", "url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbaobg.png)");
+				}, 600).css("background-image", "url(./images/hongbao.png)");
 
 				$third.animate({
 					"position": "absolute",
@@ -182,7 +182,7 @@ $(function() {
 					"height": "14.8rem",
 					"background-size": "100%",
 					"z-index": "2"
-				}, 300).css("background-image", "url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbaobg.png)");
+				}, 300).css("background-image", "url(./images/hongbao.png)");
 			}, 400);
 			$third.insertBefore($first);
 			setTimeout(function() {
@@ -226,7 +226,7 @@ $(function() {
 							"height": "14.8rem",
 							"background-size": "100%",
 							"z-index": "2",
-							"background-image": "url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan9/ban.png)"
+							"background-image": "url(./images/hongbaohou.png)"
 
 						})
 

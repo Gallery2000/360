@@ -21,7 +21,7 @@ div {
 }
 
 body {
-    background:#fee362 url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newqiqiubg.jpg) no-repeat;
+    background:#fee362 url(../common/image/newqiqiubg.jpg) no-repeat;
     background-size: 100%;
     color: #333;
     height: 32.2rem;
@@ -66,7 +66,7 @@ a:hover {
     width: 100%;
     height: 4.7rem;
     padding-top: 0.3rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/swiperbg.png);
+    background: url(../common/image/swiperbg.png);
 }
 .swiper-slide {
    text-align: center;
@@ -91,27 +91,27 @@ a:hover {
     font-size: 0.6rem;
 }
 .swiper-slide:nth-child(1) .imgf{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newshop1.png) no-repeat;
+    background: url(../common/image/newshop1.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(2) .imgf{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newshop2.png) no-repeat;
+    background: url(../common/image/newshop2.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(3) .imgf{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newshop3.png) no-repeat;
+    background: url(../common/image/newshop3.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(4) .imgf{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newshop4.png) no-repeat;
+    background: url(../common/image/newshop4.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(5) .imgf{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newshop5.png) no-repeat;
+    background: url(../common/image/newshop5.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(6) .imgf{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/shops2.png) no-repeat;
+    background: url(../common/image/shops2.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(7) .imgf{
@@ -180,7 +180,7 @@ a:hover {
     position: absolute;
     width: 5rem;
     height: 6.35rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/fanpai/fanpaipai.png) no-repeat;
+    background: url(../common/image/fanpaipai.png) no-repeat;
     background-size: 100%;
     transition:all .3s;
 }
@@ -390,18 +390,18 @@ a:hover {
     top: 1rem;
     width: 1.55rem;
     height: 1.55rem;
-    // line-height: 1.15rem;
+    /*  line-height: 1.15rem; */
     text-align: center;
     font-size: 0.65rem;
     z-index: 1;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/rule.png) no-repeat;
+    background: url(../common/image/rule1.png) no-repeat;
     background-size: 100% 100%;
 }
 .centers{
     position: relative;
     padding-top: 16.7rem;
     height: 11rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/bg01.png) no-repeat;
+    background: url(../common/image/bg01.png) no-repeat;
     background-size: 100%;
     overflow-x: hidden;
 }
@@ -421,7 +421,7 @@ a:hover {
     height: 10.175rem;
     top: 19.5rem;
     left: 4rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/qiu1.png) no-repeat;
+    background: url(../common/image/qiu1.png) no-repeat;
     background-size: 100%;
     z-index: 2;
     animation: mygoods 2s infinite;
@@ -433,7 +433,7 @@ a:hover {
     height: 11.5rem;
     top: 10.25rem;
     left: 2.1rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/qiu2.png) no-repeat;
+    background: url(../common/image/qiu2.png) no-repeat;
     background-size: 100%;
     animation: mygoods 2.5s infinite;
 }
@@ -442,7 +442,7 @@ a:hover {
     height: 10.8rem;
     top: 10.5rem;
     left: 7.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/qiu3.png) no-repeat;
+    background: url(../common/image/qiu3.png) no-repeat;
     background-size: 100%;
     animation: mygoods 2.8s infinite;
 }
@@ -451,7 +451,7 @@ a:hover {
     height: 8.05rem;
     top: 10.4rem;
     left: 12.4rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/qiu4.png) no-repeat;
+    background: url(../common/image/qiu4.png) no-repeat;
     background-size: 100%;
     animation: mygoods 2s infinite;
 }
@@ -460,7 +460,7 @@ a:hover {
     height: 14.3rem;
     top: 19.45rem;
     left: 10.75rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/qiu5.png) no-repeat;
+    background: url(../common/image/qiu5.png) no-repeat;
     background-size: 100%;
     animation: mygoods 2.5s infinite;
 }
@@ -470,35 +470,35 @@ a:hover {
 .centers1 .qiu:nth-child(1) .icon{
     width: 2.15rem;
     height: 2.65rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/biao1.png) no-repeat;
+    background: url(../common/image/biao1.png) no-repeat;
     background-size: 100%;
     animation: icon 1.5s infinite;
 }
 .centers1 .qiu:nth-child(2) .icon{
     width: 2.4rem;
     height: 2.65rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/biao2.png) no-repeat;
+    background: url(../common/image/biao2.png) no-repeat;
     background-size: 100%;
     animation: icon 1.8s infinite;
 }
 .centers1 .qiu:nth-child(3) .icon{
     width: 2.15rem;
     height: 2.7rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/biao3.png) no-repeat;
+    background: url(../common/image/biao3.png) no-repeat;
     background-size: 100%;
     animation: icon 2.1s infinite;
 }
 .centers1 .qiu:nth-child(4) .icon{
     width: 2.1rem;
     height: 2.55rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/biao4.png) no-repeat;
+    background: url(../common/image/biao4.png) no-repeat;
     background-size: 100%;
     animation: icon 2.4s infinite;
 }
 .centers1 .qiu:nth-child(5) .icon{
     width: 2.15rem;
     height: 2.8rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/biao4.png) no-repeat;
+    background: url(../common/image/biao4.png) no-repeat;
     background-size: 100%;
     animation: icon 2.7s infinite;
 }
@@ -507,7 +507,7 @@ a:hover {
     display: none;
     width: 8.8rem;
     height: 6rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/bao.png) no-repeat;
+    background: url(../common/image/bao.png) no-repeat;
     background-size: 100%;
     animation: ribbon 1s;
 
@@ -537,7 +537,7 @@ a:hover {
     width: 18.75rem;
     height: 9.0rem;
     top:6rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/banner1.png) no-repeat;
+    background: url(../common/image/banner1.png) no-repeat;
     background-size: 100%;
 }
 .stard{
@@ -545,7 +545,7 @@ a:hover {
     height: 2.25rem;
     margin: 0 auto;
     margin-top: 0.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/start.png) no-repeat;
+    background: url(../common/image/start1.png) no-repeat;
     background-size: 100% 100%;
 }
 .counts {
@@ -572,7 +572,7 @@ a:hover {
     text-align: center;
     font-size: 0.65rem;
     z-index: 2;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/prize.png) no-repeat;
+    background: url(../common/image/prize.png) no-repeat;
     background-size: 100% 100%;
 }
 
@@ -663,7 +663,7 @@ a:hover {
     margin-bottom: 0.9rem;
     margin-right: 1.375rem;
     margin-left: 1.375rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/alertbg.png) 0 0 no-repeat;
+    background: url(../common/image/alertbg.png) 0 0 no-repeat;
     background-size: 100% 100%;
     border-radius: 0.75rem;
 }
@@ -685,7 +685,7 @@ a:hover {
     margin: 0 auto;
     text-align: center;
     line-height: 1.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/moreintro.png) 0 0 no-repeat;
+    background: url(../common/image/moreintro.png) 0 0 no-repeat;
     background-size: 100% 100%;
 
 }
@@ -738,7 +738,7 @@ a:hover {
     /*width: 2.45rem;*/
     /*height: 2.8rem;*/
     /*z-index: 2;*/
-    /*background: url(https://hdggcdn.bayimob.com/hdggstatic/qiqiu/newjiangpin.png) no-repeat;*/
+    /*background: url(../common/image/
     /*background-size: 100%;*/
 /*}*/
 .DB_guide {
@@ -766,7 +766,7 @@ a:hover {
     height: 5.25rem;
     left: 1.1rem;
     top: .05rem;
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/laoyu/Hands.png);
+    background-image: url(../common/image/Hands.png);
     background-size: contain;
     -webkit-animation: guideHand 1.5s linear infinite normal;
     animation: guideHand 1.5s linear infinite normal;

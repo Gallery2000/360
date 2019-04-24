@@ -30,7 +30,7 @@ body {
 .bodydiv {
   height: 23.3rem;
   padding-top: 35%;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/bg.jpg) no-repeat;
+  background: url(../common/image/bg6.jpg) no-repeat;
   background-size: 100%;
   overflow-x: hidden;
 }
@@ -91,7 +91,7 @@ a:hover {
   left: 0;
   width: 2.25rem;
   height: 2.85rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/wufu/swipertitle.png) no-repeat;
+  background: url(../common/image/swipertitle.png) no-repeat;
   background-size: 100%;
   z-index: 2;
 }
@@ -116,31 +116,31 @@ a:hover {
 }
 
 .swiper-slide:nth-child(1) div {
-  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/288.png) no-repeat center;
+  background: #fff url(../common/image/288.png) no-repeat center;
   background-size: 2.8rem;
 }
 
 .swiper-slide:nth-child(2) div {
-  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan2/dzp2_bg2.png) no-repeat center;
+  background: #fff url(../common/image/dzp2_bg2.png) no-repeat center;
   background-size: 2.8rem;
 }
 
 .swiper-slide:nth-child(3) div {
-  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan2/dzp2_bg5.png) no-repeat center;
+  background: #fff url(../common/image/dzp2_bg5.png) no-repeat center;
   background-size: 2.8rem;
 }
 
 .swiper-slide:nth-child(4) div {
-  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan2/dzp2_bg3.png) no-repeat center;
+  background: #fff url(../common/image/dzp2_bg3.png) no-repeat center;
   background-size: 2.8rem;
 }
 
 .swiper-slide:nth-child(5) div {
-  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan2/dzp2_bg6.png) no-repeat center;
+  background: #fff url(../common/image/dzp2_bg6.png) no-repeat center;
   background-size: 2.4rem;;
 }
 .swiper-slide:nth-child(6) div {
-  background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/fudai.png) no-repeat center;
+  background: #fff url(../common/image/fudai.png) no-repeat center;
   background-size: 2.4rem;;
 }
 
@@ -221,7 +221,7 @@ a:hover {
   width: 4.7rem;
   height: 6.75rem;
   transition: all .3s;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/fanpai3/paizi.png) no-repeat;
+  background: url(../common/image/paizi.png) no-repeat;
   background-size: 100%;
 }
 
@@ -454,7 +454,7 @@ a:hover {
   top: .1rem;
   width: 1.25rem;
   height: 1.55rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/fanpai3/piaoyezi3.png) no-repeat;
+  background: url(../common/image/piaoyezi3.png) no-repeat;
   background-size: 100%;
 }
 
@@ -467,7 +467,7 @@ a:hover {
   text-align: center;
   font-size: 0.65rem;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/rule.png) no-repeat;
+  background: url(../common/image/rule.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -478,13 +478,13 @@ a:hover {
   width: 11.2rem;
   height: 2.75rem;
   /*border-radius: 1rem;*/
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/start.png) no-repeat;
+  background: url(../common/image/start3.png) no-repeat;
   background-size: 100% 100%;
   z-index: 2;
 }
 
 .startb {
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/started.png) no-repeat;
+  background: url(../common/image/started2.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -512,7 +512,7 @@ a:hover {
   text-align: center;
   font-size: 0.65rem;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/wdjiangpin.png) no-repeat;
+  background: url(../common/image/wdjiangpin.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -582,7 +582,7 @@ a:hover {
   top: 7.5rem;
   width: 100%;
   height: 10.1rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/totalGuang.png) no-repeat;
+  background: url(../common/image/totalGuang.png) no-repeat;
   background-size: 100%;
   z-index: 1;
   animation: ssGuang 0.8s linear infinite alternate;
@@ -594,7 +594,7 @@ a:hover {
   top: 11.2rem;
   width: 9.1rem;
   height: 10.5rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/egg1.png) no-repeat;
+  background: url(../common/image/egg1.png) no-repeat;
   background-size: 100%;
   z-index: 2;
 }
@@ -605,7 +605,7 @@ a:hover {
   top: 12.5rem;
   width: 9.1rem;
   height: 10.5rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/egg1.png) no-repeat;
+  background: url(../common/image/egg1.png) no-repeat;
   background-size: 90%;
 }
 
@@ -615,7 +615,7 @@ a:hover {
   top: 12.2rem;
   width: 9.1rem;
   height: 10.5rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/egg1.png) no-repeat;
+  background: url(../common/image/egg1.png) no-repeat;
   background-size: 90%;
 }
 
@@ -626,7 +626,7 @@ a:hover {
   left: 1.3rem;
   width: 3.3rem;
   height: 2.55rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bigsuipian1.png) no-repeat;
+  background: url(../common/image/bigsuipian1.png) no-repeat;
   background-size: 100%;
   z-index: 200;
 }
@@ -638,7 +638,7 @@ a:hover {
   left: 1.3rem;
   width: 3.3rem;
   height: 2.55rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bigsuipian3.png) no-repeat;
+  background: url(../common/image/bigsuipian3.png) no-repeat;
   background-size: 100%;
   z-index: 200;
 }
@@ -650,7 +650,7 @@ a:hover {
   right: 1.3rem;
   width: 3.3rem;
   height: 2.55rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bigsuipian2.png) no-repeat;
+  background: url(../common/image/bigsuipian2.png) no-repeat;
   background-size: 100%;
   z-index: 200;
 }
@@ -662,7 +662,7 @@ a:hover {
   right: 1.3rem;
   width: 3.3rem;
   height: 2.55rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bigsuipian4.png) no-repeat;
+  background: url(../common/image/bigsuipian4.png) no-repeat;
   background-size: 100%;
   z-index: 200;
 }
@@ -696,7 +696,7 @@ a:hover {
   height: 5.25rem;
   left: 2.25rem;
   top: 2.25rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/hand.png);
+  background-image: url(../common/image/hand.png);
   background-size: contain;
   -webkit-animation: guideHand 1.5s linear infinite normal;
   animation: guideHand 1.5s linear infinite normal;
@@ -742,7 +742,7 @@ a:hover {
   border-top-right-radius: 0.75rem;
   border-top-left-radius: 0.75rem;
   margin-top: 0;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background: url(../common/image/activenotice.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -821,7 +821,7 @@ a:hover {
   z-index: 3;
   width: 1.6em;
   height: 1.6em;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -877,7 +877,7 @@ a:hover {
   left: 1rem;
   width: 2.5rem;
   height: 2.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipian1.png);
+  background-image: url(../common/image/suipian1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -891,7 +891,7 @@ a:hover {
   left: 0.75rem;
   width: 3rem;
   height: 4rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/neibg.png);
+  background-image: url(../common/image/neibg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -904,7 +904,7 @@ a:hover {
   left: 4rem;
   width: 2.5rem;
   height: 2.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipian2.png);
+  background-image: url(../common/image/suipian2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -918,7 +918,7 @@ a:hover {
   left: 3.65rem;
   width: 3rem;
   height: 4rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/neibg.png);
+  background-image: url(../common/image/neibg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -931,7 +931,7 @@ a:hover {
   left: 6.75rem;
   width: 2.5rem;
   height: 2.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipian3.png);
+  background-image: url(../common/image/suipian3.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -945,7 +945,7 @@ a:hover {
   left: 6.55rem;
   width: 3rem;
   height: 4rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/neibg.png);
+  background-image: url(../common/image/neibg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -958,7 +958,7 @@ a:hover {
   left: 9.75rem;
   width: 2.5rem;
   height: 2.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipian4.png);
+  background-image: url(../common/image/suipian4.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -972,7 +972,7 @@ a:hover {
   left: 9.45rem;
   width: 3rem;
   height: 4rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/neibg.png);
+  background-image: url(../common/image/neibg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -985,7 +985,7 @@ a:hover {
   right: 4.75rem;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/arrowNor.png);
+  background-image: url(../common/image/arrowNor.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -993,7 +993,7 @@ a:hover {
 }
 
 .arrow {
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/arrow.png);
+  background-image: url(../common/image/arrow.png);
 }
 
 @keyframes scale {
@@ -1055,7 +1055,7 @@ a:hover {
   right: 0.75rem;
   width: 4.5rem;
   height: 4.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bgGuang.png);
+  background-image: url(../common/image/bgGuang.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -1073,7 +1073,7 @@ a:hover {
   right: 1.25rem;
   width: 3.5rem;
   height: 3.5rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/allPhotoNor.png);
+  background-image: url(../common/image/allPhotoNor.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -1081,7 +1081,7 @@ a:hover {
 }
 
 .allPhoto {
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/allPhoto.png);
+  background-image: url(../common/image/allPhoto.png);
 }
 
 .addAll {
@@ -1109,7 +1109,7 @@ a:hover {
 /*margin-top: -9rem;*/
 /*box-sizing: border-box;*/
 /*overflow: hidden;*/
-/*background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bgGuang.png) no-repeat center center;*/
+/*background: url(../common/image/
 /*background-size: 100%;*/
 /*}*/
 
@@ -1125,7 +1125,7 @@ a:hover {
   margin-top: -7rem;
   box-sizing: border-box;
   overflow: hidden;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/bigTotal.png) no-repeat center center;
+  background: url(../common/image/bigTotal.png) no-repeat center center;
   background-size: 100%;
 }
 
@@ -1141,7 +1141,7 @@ a:hover {
   /*margin-top: -1rem;*/
   box-sizing: border-box;
   overflow: hidden;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/close.png) no-repeat center center;
+  background: url(../common/image/close.png) no-repeat center center;
   background-size: 100%;
 }
 
@@ -1157,7 +1157,7 @@ a:hover {
   /*margin-top: -2rem;*/
   box-sizing: border-box;
   overflow: hidden;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/location.png) no-repeat center center;
+  background: url(../common/image/location.png) no-repeat center center;
   background-size: 100%;
   animation: scale 3s linear infinite;
   -webkit-animation: scale 3s linear infinite;
@@ -1233,7 +1233,7 @@ a:hover {
 /*left: 6.3rem;*/
 /*width: 1.3rem;*/
 /*height: 1.55rem;*/
-/*background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipianed1.png) no-repeat;*/
+/*background: url(../common/image/
 /*background-size: 100%;*/
 /*z-index: 200;*/
 /*}*/
@@ -1245,7 +1245,7 @@ a:hover {
 /*left: 6.3rem;*/
 /*width: 1.3rem;*/
 /*height: 1.55rem;*/
-/*background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipianed2.png) no-repeat;*/
+/*background: url(../common/image/
 /*background-size: 100%;*/
 /*z-index: 200;*/
 /*}*/
@@ -1257,7 +1257,7 @@ a:hover {
 /*left: 6.3rem;*/
 /*width: 1.3rem;*/
 /*height: 1.55rem;*/
-/*background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipianed3.png) no-repeat;*/
+/*background: url(../common/image/
 /*background-size: 100%;*/
 /*z-index: 200;*/
 /*}*/
@@ -1269,7 +1269,7 @@ a:hover {
 /*left: 6.3rem;*/
 /*width: 1.3rem;*/
 /*height: 1.55rem;*/
-/*background: url(https://hdggcdn.bayimob.com/hdggstatic/kaibaoxiang/suipianed4.png) no-repeat;*/
+/*background: url(../common/image/
 /*background-size: 100%;*/
 /*z-index: 200;*/
 /*}*/
@@ -1324,7 +1324,7 @@ a:hover {
   width: 3.25rem;
   height: 3.25rem;
   z-index: 2;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/zadanBig/chuizi.png);
+  background-image: url(../common/image/chuizi.png);
   background-size: 100% 100%;
 }
 
@@ -1333,20 +1333,20 @@ a:hover {
   10%,
   20%,
   30% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/broke1.png) no-repeat;
+    background: url(../common/image/broke1.png) no-repeat;
     background-size: 100% 100%;
   }
   40%,
   50%,
   60% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/broke2.png) no-repeat;
+    background: url(../common/image/broke2.png) no-repeat;
     background-size: 100% 100%;
   }
   70%,
   80%,
   90%,
   100% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/broke3.png) no-repeat;
+    background: url(../common/image/broke3.png) no-repeat;
     background-size: 100% 100%;
   }
 }
@@ -1356,20 +1356,20 @@ a:hover {
   10%,
   20%,
   30% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/broke1.png) no-repeat;
+    background: url(../common/image/broke1.png) no-repeat;
     background-size: 100%;
   }
   40%,
   50%,
   60% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/broke2.png) no-repeat;
+    background: url(../common/image/broke2.png) no-repeat;
     background-size: 100%;
   }
   70%,
   80%,
   90%,
   100% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan3/broke3.png) no-repeat;
+    background: url(../common/image/broke3.png) no-repeat;
     background-size: 100%;
   }
 }

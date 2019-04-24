@@ -120,7 +120,7 @@ $(function () {
     //				console.log(rot)
     if (ads == true) {
       num++;
-      $(".couten").append("<li class='li" + num + "' ><a href='javascript:;'><img src='https://hdggcdn.bayimob.com/hdggstatic/moneyhb_" + hb + ".png'></a></li>");
+      $(".couten").append("<li class='li" + num + "' ><a href='javascript:;'><img src='../common/image/moneyhb_" + hb + ".png'></a></li>");
       $(".li" + num).css({
         "left": Left,
       });

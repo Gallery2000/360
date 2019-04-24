@@ -1,0 +1,549 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #beedf9;
+}
+html {
+	font-size: 40px;
+}
+.bodydiv {
+	width: 18.75rem;
+	height: 33.35rem;
+	position: relative;
+	background: url(../common/image/bg7.jpg) no-repeat;
+	background-size: 100%;
+	/* transform-style: preserve-3d; */
+}
+
+.person  {
+	width:1.85rem;
+	height: 2.65rem;
+	position: absolute;
+	top: 7.5rem;
+	left: 3rem;
+	background: url(../common/image/person3.png) no-repeat;
+	background-size: 100%;
+	z-index: 1;
+	
+}
+.personDown {
+	animation: personGo .4s linear infinite;
+	-webkit-animation: personGo .4s linear infinite;
+}
+@keyframes personGo{
+	 
+	0% {
+		transform: translateY(0);
+	}
+	25% {
+		transform: translateY(-10px);
+	}
+	50% {
+		transform: translateY(-15px);
+	}
+	75% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+@-webkit-keyframes personGo{
+	0% {
+		-webkit-transform: translateY(0);
+	}
+	25% {
+		-webkit-transform: translateY(-10px);
+	}
+	50% {
+		-webkit-transform: translateY(-15px);
+	}
+	75% {
+		-webkit-transform: translateY(-10px);
+	}
+	100% {
+		-webkit-transform: translateY(0px);
+	}
+}
+.personGo {
+	width:1.85rem;
+	height: 3.1rem;
+	position: absolute;
+	top: 7.5rem;
+	left: 3rem;
+    background: url(../common/image/person3.gif) no-repeat; 
+	background-size: 100%;
+}
+ 
+.baoshi {
+	width:1.3rem;
+	height: 1.8rem;
+	position: absolute;
+	top: 9.7rem;
+    left: 7.6rem;
+	background: url(../common/image/baoshi.png) no-repeat;
+	background-size: 100%;
+}
+.feng {
+	width: 1.7rem;
+	height: 1.7rem;
+	position: absolute;
+	top: 10.2rem;
+    left: 9.9rem;
+	background: url(../common/image/feng.png) no-repeat;
+	background-size: 100%;
+	transform-origin: top;
+}
+.fengGo {
+	animation:  fengMove 1s linear;
+}
+@keyframes fengMove{
+	0% {
+    /* transform: scale(1); */
+    opacity: 1;
+    transform: translateY(0);
+}
+25% {
+    /* transform: scale(0.75); */
+    opacity: 0.75;
+    transform: translateY(-10px);
+}
+50% {
+    /* transform: scale(0.5); */
+    opacity: 0.5;
+    transform: translateY(-15px);
+}
+75% {
+    /* transform: scale(0.25); */
+    opacity: 0.25;
+    transform: translateY(-20px);
+}
+100% {
+    /* transform: scale(0); */
+    opacity: 0;
+    transform: translateY(-25px);
+}
+}
+.hongbao {
+	width: 1.7rem;
+	height: 1.5rem;
+	position: absolute;
+	top: 11rem;
+    left: 11.7rem;
+	background: url(../common/image/hongbao1.png) no-repeat;
+	background-size: 100%;
+}
+.baoxiang {
+	width: 1.45rem;
+	height: 1.575rem;
+	position: absolute;
+	top: 13.7rem;
+    left: 13rem;
+	background: url(../common/image/baoxiang.png) no-repeat;
+	background-size: 100%;
+}
+.baoxiang1 {
+	width: 1.45rem;
+	height: 1.575rem;
+	position: absolute;
+	top: 19.5rem;
+    left: 4.5rem;
+	background: url(../common/image/baoxiang.png) no-repeat;
+	background-size: 100%;
+}
+.fudai {
+	width: 1.475rem;
+	height: 1.575rem;
+	position: absolute;
+	top: 22.4rem;
+    left: 7.5rem;
+	background: url(../common/image/fudai1.png) no-repeat;
+	background-size: 100%;
+}
+.zhadan {
+	width: 1.725rem;
+	height: 1.35rem;
+	position: absolute;
+	top: 22.8rem;
+    left: 9.8rem;
+	background: url(../common/image/zhadan1.png) no-repeat;
+	background-size: 100%;
+}
+.youhui {
+	width: 2.025rem;
+	height: 1.475rem;
+	position: absolute;
+	top: 26.4rem;
+    left: 13.4rem;
+	background: url(../common/image/youhui.png) no-repeat;
+	background-size: 100%;
+}
+.feiji {
+	width: 2rem;
+	height: 1.025rem;
+	position: absolute;
+	top: 28.5rem;
+    left: 12rem;
+	background: url(../common/image/feiji1.png) no-repeat;
+	background-size: 100%;
+}
+
+.counts {
+	width: 6.4rem;
+	height: 2rem;
+	position: absolute;
+	top: 20.3rem;
+    left: 10.8rem;
+	background: url(../common/image/cishu.png) no-repeat;
+	background-size: 100%;
+	padding: 0.3rem 1.1rem;
+    box-sizing: border-box;
+	color: #fff;
+}
+.shaizi {
+	width: 4.75rem;
+	height:5.225rem;
+	position: absolute;
+	top: 16rem;
+    left: 11.5rem;
+	background-image: url(../common/image/1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform-origin: center; 
+	-webkit-transform-origin: center; 
+    animation: shaiziGo .8s linear infinite;
+	-webkit-animation: shaiziGo .8s linear infinite;
+	-moz-animation:shaiziGo .8s linear infinite ;
+	-ms-animation: shaiziGo .8s linear infinite;
+	
+}
+@keyframes shaiziGo{
+	 0% {
+		 transform: translateY(0);
+	 }
+	 25% {
+		 transform: translateY(-15px);
+	 }
+	 50% {
+		 transform: translateY(0);
+	 }
+	 75% {
+		 transform: translateY(15px);
+	 }
+	 100% {
+		 transform: translateY(0);
+	 }
+}
+@-webkit-keyframes shaiziGo{
+	0% {
+		-webkit-transform: translateY(0);
+	}
+	25% {
+		-webkit-transform: translateY(-15px);
+	}
+	50% {
+		-webkit-transform: translateY(0);
+	}
+	75% {
+		-webkit-transform: translateY(15px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+@-moz-keyframes shaiziGo{
+	0% {
+		-moz-transform: translateY(0);
+	}
+	25% {
+		-moz-transform: translateY(-15px);
+	}
+	50% {
+		-moz-transform: translateY(0);
+	}
+	75% {
+		-moz-transform: translateY(15px);
+	}
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+@-ms-keyframes shaiziGo{
+	0% {
+		-ms-transform: translateY(0);
+	}
+	25% {
+		-ms-transform: translateY(-15px);
+	}
+	50% {
+		-ms-transform: translateY(0);
+	}
+	75% {
+		-ms-transform: translateY(15px);
+	}
+	100% {
+		-ms-transform: translateY(0);
+	}
+}
+.shaiziGo {
+	 width:6.675rem ;
+	height: 5.225rem;
+	overflow: hidden;
+	position: absolute;
+	top: 16rem;
+	left: 10.5rem; 
+	background-image: url(../common/image/longTiao.png);
+	 background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0 0;
+    animation: shaiMove .4s steps(4) infinite;
+}
+@keyframes shaiMove{
+	 from {
+	 		background-position: 0 0
+	 }
+	 to {
+	 		background-position: 0 100%
+	 }
+}
+
+.zhezhao {
+	width: 18.75rem;
+	height:33.35rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../common/image/drop.png) no-repeat;
+	background-size: 100%;
+	z-index: 100;
+	animation: logMove .4s linear;
+	 -webkit-animation: logMove .4s linear;
+	 
+}
+@keyframes logMove{
+	from{height: 0%;}
+	to{height: 100%;}
+}
+@-webkit-keyframes logMove{
+	from{height: 0%;}
+	to{height: 100%;}
+}
+.logText {
+	width: 8.925rem;
+	height: 2.175rem;
+	position: absolute;
+	top: 14.5rem;
+    left: 3rem;
+	background: url(../common/image/text.png) no-repeat;
+	background-size: 100%;
+}
+.clickGo {
+	    width: 6rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 10.5rem;
+    /* background: yellow; */
+}
+.rule {
+	width: 4rem;
+    height: 2rem;
+    position: absolute;
+    top: 13rem;
+    left: 0.2rem;
+    /* background: #000; */
+}
+
+.notice {
+  position: relative;
+  padding-bottom: 0.5rem;
+  z-index: 3000;
+}
+
+.notice h1 {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  color: #440d00;
+  text-align: center;
+  font-weight: normal;
+}
+
+.notice h1.ntile1 {
+  height: 3.5rem;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  margin-top: 0;
+  background: url(../common/image/activenotice.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.notice h1.title {
+  color: #440d00;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice h1 span {
+  width: 1.75rem;
+  height: 1px;
+  display: inline-block;
+  background: #440d00;
+  vertical-align: middle;
+}
+
+.notice h1 span:first-child {
+  margin-right: 0.4rem;
+}
+
+.notice h1 span:last-child {
+  margin-left: 0.4rem;
+}
+
+.notice .contant {
+  width: 85%;
+  height: 16rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  color: #440d00;
+  overflow: auto;
+}
+
+.notice .contant p {
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.notice .contant p.font14,
+.notice .contant h1.font14 {
+  font-size: 0.7rem;
+}
+
+.zhenotice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: rgba(0, 0, 0, 0.4)
+}
+
+.alerty {
+  position: absolute;
+  top: 5.0rem;
+  left: 0;
+  display: none;
+  z-index: 5000;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  margin-right: 1.375rem;
+  margin-left: 1.375rem;
+  background: #fff;
+  border-radius: 0.75rem;
+}
+
+.saclose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 3;
+  width: 1.6em;
+  height: 1.6em;
+  background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
+  background-size: contain;
+}
+
+.moresay {
+  background: #fd6918;
+  color: #fff;
+  width: 80%;
+  height: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.moresayp {
+  display: none;
+  padding-top: 1.0rem;
+}
+
+.moresay i {
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  margin-left: .3rem;
+  transition: all .3s ease-in-out;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transform-origin: .15rem .15rem;
+  transform-origin: .15rem .15rem;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-top-color: #fff;
+  border-left-color: #fff;
+}
+
+.activeadv i {
+  -webkit-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+}
+
+#hdgg_show-win {
+  padding-left: 0;
+  margin-left: 0.2rem;
+}
+
+.bossWin {
+	width: 3.7rem;
+	height: 2.325rem;
+	position: absolute;
+	top: 29.5rem;
+	left: 4rem;
+	background: url(../common/image/bossWin.png) no-repeat;
+	background-size: 100%;
+}
+
+.textBox {
+	width: 13.025rem;
+	height:15.475rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-6.5125rem;
+	margin-top: -7.7375rem;
+	animation: textMove .3s linear;
+	-webkit-animation: textMove .3s linear;
+	transform-origin: center;
+	-webkit-transform-origin: center;
+}
+@keyframes textBox{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+@-webkit-keyframes textBox{
+	from{-webkit-transform: scale(0);}
+	to{-webkit-transform: scale(1);}
+}
+.textHide {
+	animation: hideMove .3s linear;
+	-webkit-animation: hideMove .3s linear;
+}
+@keyframes hideMove{
+	from{transform: scale(1);}
+	to{transform: scale(0);}
+}
+@-webkit-keyframes hideMove{
+	from{-webkit-transform: scale(1);}
+	to{-webkit-transform: scale(0);}
+}
+.textBox img {
+	width: 100%;
+	height: 100%;
+}
+

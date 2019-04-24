@@ -537,13 +537,13 @@ function prizeList() {
 function boxHandle(){
   setTimeout(() => {
     if(!!$(".hdgg_toMiddle").length){
-      $("#hdgg_more_game_award").find("img").attr("src","https://hdggcdn.bayimob.com///program/20180914/dca5403fc92f41e997399999aeace29d.gif");
+      $("#hdgg_more_game_award").find("img").attr("src","../common/image/dca5403fc92f41e997399999aeace29d.gif");
       return;
     }
     var award = $(
       '<div id="hdgg_more_game_award" class="hdgg_toMiddle hdgg_toMiddleForward">' +
         '<a id="hdgg_more_game_element" href="javascript:;">' +
-        '<img style="display: block;width:100%;" src="https://hdggcdn.bayimob.com//program/20180913/9082842bef4a42ecb6d879b93082ff13.gif">' +
+        '<img style="display: block;width:100%;" src="../common/image/9082842bef4a42ecb6d879b93082ff13.gif">' +
         "</a>" +
         "</div>"
     );
@@ -560,7 +560,7 @@ function boxHandle(){
 function closeHandle() {
 var oLink = $(
   '<a href="javascript:;" style="position: fixed; top: 42%; right: 50%; z-index: 99; width: 3.4rem; height: 1.85rem; margin-right: -1.7rem;">' +
-    '<img src="https://hdggcdn.bayimob.com/hdggstatic/activity/fly.png" style="width: 100%;"></a>'
+    '<img src="../common/image/fly.png" style="width: 100%;"></a>'
 );
 $("body").append(oLink);
 oLink.animate(
@@ -572,9 +572,9 @@ oLink.animate(
       $(".jiang")
         .addClass("jiangw")
         .html(
-          '<img src="https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi7/star.png" class="star addw" style="width:40%;margin-top:0.75rem;">' +
-            '<img src="https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi7/star.png" class="star1 addw" style="width:35%;">' +
-            '<img src="https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi7/star.png" class="star2 addw" style="width:30%;margin-top:-0.25rem;">'
+          '<img src="../common/image/star.png" class="star addw" style="width:40%;margin-top:0.75rem;">' +
+            '<img src="../common/image/star.png" class="star1 addw" style="width:35%;">' +
+            '<img src="../common/image/star.png" class="star2 addw" style="width:30%;margin-top:-0.25rem;">'
         );
     }, 100);
     setTimeout(function() {

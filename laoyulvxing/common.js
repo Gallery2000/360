@@ -142,7 +142,7 @@ function getUrlParam(name) {
 function startFloat() {
   var i, t, s = 375 * window.remscale || document.documentElement.clientWidth || document.body.clientWidth,
       e = Math.ceil(3 * Math.random());
-  i = 'https://hdggcdn.bayimob.com/hdggstatic/laoyu/guan.png', t = 'https://hdggcdn.bayimob.com/hdggstatic/laoyu/guan.png', $(".floats").append(2 == e ? '<div class="float item row' + e + '" data-type="bottle"><img src="' + i + '"/></div>' : '<div class="float item row' + e + '" data-type="chest"><img src="' + t + '"/></div>');
+  i = '../common/image/guan.png', t = '../common/image/guan.png', $(".floats").append(2 == e ? '<div class="float item row' + e + '" data-type="bottle"><img src="' + i + '"/></div>' : '<div class="float item row' + e + '" data-type="chest"><img src="' + t + '"/></div>');
   var a = s + "px,0,0";
   $(".float").last().animate({
     left: "18.75rem"

@@ -317,7 +317,7 @@ $(function() {
 	//动态图片初始化
 	var img_bao = '';
 	move = function() {
-		img_bao = 'https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/yao1.gif?a=' + Date.now();
+		img_bao = '../common/image/yao1.gif?a=' + Date.now();
 		var changeImg = new Image();
 		changeImg.src = img_bao
 	}
@@ -376,7 +376,7 @@ $(function() {
 
 			// debugger
 			$('.yaoqianshu').removeClass('yaoshuoGif').css('background-image',
-				'url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/shu.png)');
+				'url(../common/image/shu.png)');
 			// upCount();
 			setp(count)
 			var index = Math.floor(Math.random() * dataArr.length);
@@ -509,7 +509,7 @@ $(function() {
 			local.save('agoTime', new Date(new Date().toLocaleDateString()).getTime() / 1 + 86400000);
 			haveTime = false;
 		}
-		img_bao = 'https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/yao1.gif?a=' + Date.now();
+		img_bao = '../common/image/yao1.gif?a=' + Date.now();
 		if (count == 7) {
 			$('.liuzhi1,.liuzhi2,.liuzhi3,.liuzhi4,.liuzhi5').addClass('liuzhiDong')
 		}
@@ -522,7 +522,7 @@ $(function() {
 			flag = false
 
 			$('.yaoqianshu').removeClass('yaoshuoGif').css('background-image',
-				'url(https://hdggcdn.bayimob.com/hdggstatic/yaoshu1/shu.png)')
+				'url(../common/image/shu.png)')
 				var index = Math.floor(Math.random() * dataArr.length);
 				var currentData = dataArr[index];
 				if (currentData.advLayout === 1) {
@@ -638,14 +638,14 @@ function alertCommon(imageUrl, advIntro) {
 function boxHandle(){
     setTimeout(() => {
       if(!!$(".hdgg_toMiddle").length){
-        $("#hdgg_more_game_award").find("img").attr("src","https://hdggcdn.bayimob.com///program/20180914/dca5403fc92f41e997399999aeace29d.gif");
+        $("#hdgg_more_game_award").find("img").attr("src","../common/image/dca5403fc92f41e997399999aeace29d.gif");
         return;
       }
       $(".hdgg_toMiddle").remove();
       var award = $(
         '<div id="hdgg_more_game_award" class="hdgg_toMiddle hdgg_toMiddleForward">' +
           '<a id="hdgg_more_game_element" href="javascript:;">' +
-          '<img style="display: block;width:100%;" src="https://hdggcdn.bayimob.com//program/20180913/9082842bef4a42ecb6d879b93082ff13.gif">' +
+          '<img style="display: block;width:100%;" src="../common/image/9082842bef4a42ecb6d879b93082ff13.gif">' +
           "</a>" +
           "</div>"
       );
@@ -662,7 +662,7 @@ function boxHandle(){
 function closeHandle() {
   var oLink = $(
     '<a href="javascript:;" style="position: fixed; top: 42%; right: 50%; z-index: 99; width: 3.4rem; height: 1.85rem; margin-right: -1.7rem;">' +
-      '<img src="https://hdggcdn.bayimob.com/hdggstatic/activity/fly.png" style="width: 100%;"></a>'
+      '<img src="../common/image/fly.png" style="width: 100%;"></a>'
   );
   $("body").append(oLink);
   oLink.animate(
@@ -674,9 +674,9 @@ function closeHandle() {
         $(".jiang")
           .addClass("jiangw")
           .html(
-            '<img src="https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi7/star.png" class="star addw" style="width:40%;margin-top:0.75rem;">' +
-              '<img src="https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi7/star.png" class="star1 addw" style="width:35%;">' +
-              '<img src="https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi7/star.png" class="star2 addw" style="width:30%;margin-top:-0.25rem;">'
+            '<img src="../common/image/star.png" class="star addw" style="width:40%;margin-top:0.75rem;">' +
+              '<img src="../common/image/star.png" class="star1 addw" style="width:35%;">' +
+              '<img src="../common/image/star.png" class="star2 addw" style="width:30%;margin-top:-0.25rem;">'
           );
       }, 100);
       setTimeout(function() {

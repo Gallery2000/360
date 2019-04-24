@@ -24,7 +24,7 @@ body {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  background: #6d32ca url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/bg.jpg) no-repeat;
+  background: #6d32ca url(../common/image/bg4.jpg) no-repeat;
   background-size: 100%;
   color: #333;
   font-size: 12px;
@@ -43,7 +43,7 @@ body {
   left: 6.35rem;
   width: 2.525rem;
   height: 8rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan18/shanhu.png) no-repeat center center;
+  background: url(../common/image/shanhu.png) no-repeat center center;
   background-size: 100%;
   z-index: 3;
 }
@@ -180,36 +180,36 @@ html {
 
 @keyframes changeDeng {
   0% {
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    background-image: url(../common/image/guang1.png);
     transform: rotate(-360deg);
   }
   50% {
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    background-image: url(../common/image/guang1.png);
     transform: rotate(-180deg);
   }
   100% {
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    background-image: url(../common/image/guang1.png);
     transform: rotate(0deg);
   }
 }
 
 @-webkit-keyframes changeDeng {
   0% {
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    background-image: url(../common/image/guang1.png);
     transform: rotate(-360deg);
   }
   50% {
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    background-image: url(../common/image/guang1.png);
     transform: rotate(-180deg);
   }
   100% {
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/guang1.png);
+    background-image: url(../common/image/guang1.png);
     transform: rotate(0deg);
   }
 }
 
 .banner .turnplate .bian {
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan39/group.png) no-repeat center center;
+  background: url(../common/image/group.png) no-repeat center center;
   background-size: 100%;
   width: 16.7rem;
   height: 16.7rem;
@@ -250,19 +250,19 @@ html {
   transform-origin: right bottom
 }
 
-@keyframes dengchange {
+/* @keyframes dengchange {
   from {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/zhuanpanguang-2.png);
+    background: url(../common/image/zhuanpanguang-2.png);
     background-size: 100% 100%;
   }
   to {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/zhuanpanguang-1.png);
+    background: url(../common/image/zhuanpanguang-1.png);
     background-size: 100% 100%;
   }
-}
+} */
 
 .banner .turnplate .ding {
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/dingbu.png);
+  background: url(../common/image/dingbu.png);
   background-size: 100% 100%;
   position: absolute;
   width: 2rem;
@@ -329,7 +329,7 @@ html {
   text-align: center;
   font-size: 0.65rem;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/rule.png) no-repeat;
+  background: url(../common/image/rule.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -340,7 +340,7 @@ html {
   top: 0;
   left: 0;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/dzp1_bgshow.png) no-repeat;
+  background: url(../common/image/dzp1_bgshow.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -366,7 +366,7 @@ html {
   text-align: center;
   font-size: 0.65rem;
   z-index: 2;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/prize.png) no-repeat;
+  background: url(../common/image/prize.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -390,7 +390,7 @@ html {
   border-top-right-radius: 0.75rem;
   border-top-left-radius: 0.75rem;
   margin-top: 0;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background: url(../common/image/activenotice.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -469,7 +469,7 @@ html {
   z-index: 3;
   width: 1.6em;
   height: 1.6em;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -566,7 +566,7 @@ html {
 }
 
 .DB_guide .DB_G_circle {
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi2/circleHand.png);
+  background-image: url(../common/image/circleHand.png);
   background-size: 100%;
   width: 1.6rem;
   height: 1.6rem;
@@ -602,7 +602,7 @@ html {
   height: 4.35rem;
   left: 2.5rem;
   top: 2.35rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/yaoshaizi2/hand.png);
+  background-image: url(../common/image/hand.png);
   -webkit-animation: guideHand2 .5s step-start infinite;
   animation: guideHand2 .5s step-start infinite;
   background-size: cover;

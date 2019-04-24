@@ -9,7 +9,7 @@ body {
 .banner{
     width: 100%;
     height: 8.0rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/fulishe/flbanner.jpg) no-repeat top left;
+    background: url(../common/image/flbanner.jpg) no-repeat top left;
     background-size: 100%;
 }
 div{
@@ -23,11 +23,11 @@ div{
     position: relative;
 }
 .active1{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/moneybj1.jpg) no-repeat top left;
+    background: url(../common/image/moneybj1.jpg) no-repeat top left;
     background-size: 100%;
 }
 #start.active2{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/moneystart1.png) no-repeat top left;
+    background: url(../common/image/moneystart1.png) no-repeat top left;
     background-size: 100%;
 }
 .couten {
@@ -150,19 +150,19 @@ div{
     margin-bottom: 1.0rem;
 }
 .fulishops .shopsclick:nth-child(2){
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/fulishe/fulishop11.png) no-repeat top left;
+    background: url(../common/image/fulishop11.png) no-repeat top left;
     background-size: 100%;
 }
 .fulishops .shopsclick:nth-child(3){
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/fulishe/fulishop22.png) no-repeat top left;
+    background: url(../common/image/fulishop22.png) no-repeat top left;
     background-size: 100%;
 }
 .fulishops .shopsclick:nth-child(4){
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/fulishe/fulishop33.png) no-repeat top left;
+    background: url(../common/image/fulishop33.png) no-repeat top left;
     background-size: 100%;
 }
 .fulishops .shopsclick:nth-child(5){
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/fulishe/fulishop44.png) no-repeat top left;
+    background: url(../common/image/fulishop44.png) no-repeat top left;
     background-size: 100%;
 }
 #foot {
@@ -181,7 +181,7 @@ div{
     top: 18.25rem;
     left: 7.6rem;
     z-index: 3;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/moneystart.png) no-repeat top left;
+    background: url(../common/image/moneystart.png) no-repeat top left;
     background-size: 100%;
 }
 .startlv{
@@ -191,7 +191,7 @@ div{
     top: 16.65rem;
     left: 6.1rem;
     z-index: 2;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/meneyguang.png) no-repeat top left;
+    background: url(../common/image/meneyguang.png) no-repeat top left;
     background-size: 100%;
     animation: scale 3s linear infinite;
     -webkit-animation: scale 3s linear infinite;
@@ -226,12 +226,12 @@ div{
 }
 #rule{
     left: 0.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/moneyrule.png) no-repeat top left;
+    background: url(../common/image/moneyrule.png) no-repeat top left;
     background-size: 100% 100%;
 }
 #prize{
     right: 0.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/moneyprize.png) no-repeat top left;
+    background: url(../common/image/moneyprize.png) no-repeat top left;
     background-size: 100% 100%;
 }
 .alerty{
@@ -254,7 +254,7 @@ div{
     z-index: 3;
     width: 1rem;
     height: 1rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+    background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
     background-size: contain;
 }
 .zhenotice{
@@ -276,7 +276,7 @@ div{
     text-align: center;
     font-size: 0.65rem;
     z-index: 1;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/rule.png) no-repeat;
+    background: url(../common/image/rule.png) no-repeat;
     background-size: 100% 100%;
 }
 .notice{
@@ -346,7 +346,7 @@ div{
     left: 0;
     width: 100%;
     height: 3.15rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszsz.png) no-repeat;
+    background: url(../common/image/gszsz.png) no-repeat;
     background-size: 100% 100%;
 }
 .shengzi2{
@@ -355,7 +355,7 @@ div{
     left: 0;
     width: 100%;
     height: 10.4rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszsz2.png) no-repeat;
+    background: url(../common/image/gszsz2.png) no-repeat;
     background-size: 100% 100%;
 }
 .moresay {
@@ -406,7 +406,7 @@ div{
     border-top-right-radius: 0.75rem;
     border-top-left-radius: 0.75rem;
     margin-top: 0;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+    background: url(../common/image/activenotice.jpg) no-repeat;
     background-size: 100% 100%;
 }
 .notice h1.title{
@@ -426,7 +426,7 @@ div{
     text-align: center;
     font-size: 0.65rem;
     z-index: 2;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszprize.png) no-repeat;
+    background: url(../common/image/gszprize.png) no-repeat;
     background-size: 100% 100%;
 }
 .notice h1 span{
@@ -466,7 +466,7 @@ div{
 }
 .leftshou{
     left: -1rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszleft.png) no-repeat;
+    background: url(../common/image/gszleft.png) no-repeat;
     background-size: 100%;
    -webkit-animation:swinging 2s ease-in-out 0s infinite;
    -moz-animation:swinging 2s ease-in-out 0s infinite;
@@ -477,7 +477,7 @@ div{
 }
 .rightshou{
     right: -1rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszright.png) no-repeat;
+    background: url(../common/image/gszright.png) no-repeat;
     background-size: 100%;
    -webkit-animation:swinging1 2s ease-in-out 0s infinite;
    -moz-animation:swinging1 2s ease-in-out 0s infinite;
@@ -502,7 +502,7 @@ div{
     left:6%;
     height: 7.15rem;
     width:15.05rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszbiaoti.png) no-repeat;
+    background: url(../common/image/gszbiaoti.png) no-repeat;
     background-size: 100% 100%;
     z-index: 1;
 }
@@ -516,23 +516,23 @@ div{
     width: 18.75rem;
     height: 24rem;
     z-index: 2;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/guang-1.png) no-repeat;
+    background: url(../common/image/guang-1.png) no-repeat;
    -webkit-animation:guang 1s linear 0s infinite;
    -moz-animation:guang 1s linear 0s infinite;
    animation:guang 1s linear 0s infinite;
    background-size: 100% 100%;
-   // -webkit-transform-origin: 50% 100%;
-   // -moz-transform-origin: 50% 100%;
-   // transform-origin: 50% 100%;
+    /* -webkit-transform-origin: 50% 100%; */
+    /* -moz-transform-origin: 50% 100%; */
+    /* transform-origin: 50% 100%; */
 
 }
 @-webkit-keyframes guang{
    0%,100%{
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/guang-1.png) no-repeat;
+    background: url(../common/image/guang-1.png) no-repeat;
     background-size: 100% 100%;
     }
    50% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/guang-2.png) no-repeat;
+    background: url(../common/image/guang-2.png) no-repeat;
     background-size: 100% 100%;
     }
 }
@@ -558,7 +558,7 @@ div{
     width: 2.45rem;
     height: 2.8rem;
     z-index: 2;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/swiper/shops_title.png) no-repeat;
+    background: url(../common/image/shops_title.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide {
@@ -587,23 +587,23 @@ div{
     font-size: 0.6rem;
 }
 .swiper-slide:nth-child(1) .imgf{
-    background:#fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_200.png) no-repeat;
+    background:#fff url(../common/image/hongbao2_200.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(2) .imgf{
-    background:#fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_100.png) no-repeat;
+    background:#fff url(../common/image/hongbao2_100.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(3) .imgf{
-    background:#fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_66.png) no-repeat;
+    background:#fff url(../common/image/hongbao2_66.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(4) .imgf{
-    background:#fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_8.png) no-repeat;
+    background:#fff url(../common/image/hongbao2_8.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(5) .imgf{
-    background:#fff url(https://hdggcdn.bayimob.com/hdggstatic/swiper/hongbao2_fudai.png) no-repeat;
+    background:#fff url(../common/image/hongbao2_fudai.png) no-repeat;
     background-size: 100%;
 }
 .swiper-slide:nth-child(6) .imgf{
@@ -634,7 +634,7 @@ div{
     height: 1.5rem;
     left: -2.25rem;
     top: -1.05rem;
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/arrow1.png);
+    background-image: url(../common/image/arrow1.png);
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -644,7 +644,7 @@ div{
     height: 1.85rem;
     left: -1.35rem;
     top: .05rem;
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/arrow2.png);
+    background-image: url(../common/image/arrow2.png);
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -654,7 +654,7 @@ div{
     height: 2.95rem;
     left: .4rem;
     top: 1.1rem;
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/arrow3.png);
+    background-image: url(../common/image/arrow3.png);
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -664,7 +664,7 @@ div{
     height: 1.0rem;
     left: 1rem;
     top: 2.45rem;
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/arrow4.png);
+    background-image: url(../common/image/arrow4.png);
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -676,7 +676,7 @@ div{
     top: 2.5rem;
     display: none;
     position: absolute;
-    background-image: url(https://hdggcdn.bayimob.com/hdggstatic/geshengzi/gszpoint.png);
+    background-image: url(../common/image/gszpoint.png);
     background-repeat:no-repeat;
     background-size: 100%;
 }

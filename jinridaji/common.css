@@ -14,7 +14,7 @@ div {
   position: relative;
   width: 18.75rem;
   margin: 0 auto;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/bg2.jpg) no-repeat;
+  background: url(../common/image/bg2.jpg) no-repeat;
   background-size: 100%;
   height: 33.15rem;
   padding-bottom: 0.9rem;
@@ -52,7 +52,7 @@ div {
   width: 5.25rem;
   height: 5.25rem;
   float: left;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan1.png) no-repeat;
+  background: url(../common/image/jindan1.png) no-repeat;
   background-size: 100%;
 }
 
@@ -102,7 +102,7 @@ div {
 }
 
 .beat .tip {
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/zawoyouli.png);
+  background-image: url(../common/image/zawoyouli.png);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@ div {
 }
 
 .beat1 .tip {
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/zawoyouli.png);
+  background-image: url(../common/image/zawoyouli.png);
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ div {
   text-align: center;
   font-size: 0.65rem;
   z-index: 2;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/laodongjie/prize.png) no-repeat;
+  background: url(../common/image/prize.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -218,7 +218,7 @@ div {
   width: 2.55rem;
   height: 2.75rem;
   z-index: 2;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/chuizi.png);
+  background-image: url(../common/image/chuizi.png);
   background-size: 100% 100%;
 }
 
@@ -270,20 +270,20 @@ div {
   10%,
   20%,
   30% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan1.png) no-repeat;
+    background: url(../common/image/jindan1.png) no-repeat;
     background-size: 100% 100%;
   }
   40%,
   50%,
   60% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan2.png) no-repeat;
+    background: url(../common/image/jindan2.png) no-repeat;
     background-size: 100% 100%;
   }
   70%,
   80%,
   90%,
   100% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan3.png) no-repeat;
+    background: url(../common/image/jindan3.png) no-repeat;
     background-size: 100% 100%;
   }
 }
@@ -293,20 +293,20 @@ div {
   10%,
   20%,
   30% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan1.png) no-repeat;
+    background: url(../common/image/jindan1.png) no-repeat;
     background-size: 100%;
   }
   40%,
   50%,
   60% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan2.png) no-repeat;
+    background: url(../common/image/jindan2.png) no-repeat;
     background-size: 100%;
   }
   70%,
   80%,
   90%,
   100% {
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/jindan3.png) no-repeat;
+    background: url(../common/image/jindan3.png) no-repeat;
     background-size: 100%;
   }
 }
@@ -332,7 +332,7 @@ div {
   z-index: 3;
   width: 1.6em;
   height: 1.6em;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -356,7 +356,7 @@ div {
   text-align: center;
   font-size: 0.65rem;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan/rule.png) no-repeat;
+  background: url(../common/image/rule.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -379,7 +379,7 @@ div {
   border-top-right-radius: 0.75rem;
   border-top-left-radius: 0.75rem;
   margin-top: 0;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background: url(../common/image/activenotice.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -471,7 +471,7 @@ div {
 
 .przieLogo {
   position: absolute;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/prize.png) no-repeat center center;
+  background: url(../common/image/prize.png) no-repeat center center;
   background-size: 100%;
   width: 2.1rem;
   height: 2.1rem;
@@ -520,12 +520,12 @@ div {
 }
 
 .swiper-slide:nth-child(1) .imgf {
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/zadan5/libao.png) no-repeat;
+  background: url(../common/image/libao.png) no-repeat;
   background-size: 100%;
 }
 
 .swiper-slide:nth-child(2) .imgf {
   /*width: 1rem;*/
-  /*background: #fff url(https://hdggcdn.bayimob.com/hdggstatic/laoyu/libaoxing.png) no-repeat;*/
+  /*background: #fff url(../common/image/
   background-size: 100%;
 }

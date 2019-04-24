@@ -20,9 +20,6 @@ div {
   border: 0;
 }
 
-/*#hdgg_redpack {*/
-  /*display: none !important;*/
-/*}*/
 
 body {
   background: #a4dfd9;
@@ -33,9 +30,7 @@ body {
 
 .bodydiv {
   height: 30.15rem;
- /* padding-top: 35%; */
-     background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/bg.png) no-repeat; 
-	  /* background: url(../images/bg.png)no-repeat; */
+     background: url(../common/image/bg.png) no-repeat; 
   background-size: 100% 100%;
   overflow-x: hidden;
 }
@@ -106,7 +101,7 @@ a:hover {
   top: .1rem;
   width: 1.25rem;
   height: 1.55rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/fanpai3/piaoyezi3.png) no-repeat;
+  background: url(../common/image/piaoyezi3.png) no-repeat;
   background-size: 100%;
 }
 
@@ -119,8 +114,7 @@ a:hover {
   text-align: center;
   font-size: 0.65rem;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/rule.png) no-repeat; 
-	/* background: url(../images/newrule.png)no-repeat; */
+  background: url(../common/image/rule.png) no-repeat; 
   background-size: 100% 100%;
 }
 
@@ -131,8 +125,7 @@ a:hover {
   margin-left: -2.3rem;
   width: 4.6rem;
   height: 4.7rem;
-     background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/jinbi.png) no-repeat; 
-	  /* background: url(../images/jinbi.png)no-repeat; */
+     background: url(../common/image/jinbi.png) no-repeat; 
   background-size: 100% 100%;
   z-index: 3;
 }
@@ -155,8 +148,7 @@ a:hover {
   margin-left: -2.85rem;
   width: 5.7rem;
   height: 5.725rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/ling.png) no-repeat; 
-	  /* background: url(../images/ling.png)no-repeat; */
+    background: url(../common/image/ling.png) no-repeat; 
   background-size: 100% 100%;
   z-index: 3;
   display: none;
@@ -208,7 +200,6 @@ a:hover {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  /*border: 1px solid #fff;*/
   border-radius: 1rem;
   font-size: 0.7rem;
 }
@@ -222,8 +213,7 @@ a:hover {
   text-align: center;
   font-size: 0.65rem;
   z-index: 1;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/dazhuanpan6/prize.png) no-repeat; 
-	/* background: url(../images/mywin.png)no-repeat; */
+  background: url(../common/image/prize.png) no-repeat; 
   background-size: 100% 100%;
 }
 
@@ -234,8 +224,7 @@ a:hover {
   margin-left: -6.8875rem;
   width: 13.775rem;
   height: 14.8rem;
-  background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbao.png); 
-	   /* background: url(../images/hongbao.png)no-repeat; */
+  background-image: url(../common/image/hongbao.png); 
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 3;
@@ -247,7 +236,7 @@ a:hover {
 @keyframes guan_bi{
 	0% {
 		transform: rotateX(-180deg);
-		background-image: url(https://hdggcdn.bayimob.com/hdggstatic/xinfanpai2/hongbaogai.png); 
+		background-image: url(../common/image/hongbaogai.png); 
 		background-position: 0px -4.5rem;	
 		transform-style: preserve-3d;
 		
@@ -255,7 +244,7 @@ a:hover {
 	}
 	100% {
 		transform: rotateX(-30deg);
-		background-image: url(https://hdggcdn.bayimob.com/hdggstatic/xinfanpai2/hongbaogai.png); 
+		background-image: url(../common/image/hongbaogai.png); 
 		background-position: 0px -4.5rem;	
 		transform-style: preserve-3d;
 	}
@@ -268,8 +257,7 @@ a:hover {
   margin-left: -6.8875rem;
   width: 13.775rem;
   height: 11.45rem;
-    /* background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhan28/zhankai.png) no-repeat; */
-	  background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/redCard.png)no-repeat; 
+	  background: url(../common/image/redCard.png)no-repeat; 
   background-size: 100%;
   z-index: 3;
 }
@@ -303,8 +291,6 @@ a:hover {
 	line-height: 0.925rem;
 	font-size: 1rem;
 	color: #fff;
-  /* background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan9/left_hua.png) no-repeat; */
-  /* background-size: 100%; */
   z-index: 3;
   animation: left_hua 0.6s linear alternate infinite;
   -webkit-animation: left_hua 0.6s linear alternate infinite;
@@ -316,7 +302,6 @@ a:hover {
 .chai_red_bag {
   position: relative;
   top: 4.75rem;
-  /* left: 50%; */
   z-index: 2;
 }
 
@@ -327,9 +312,7 @@ a:hover {
   margin-left: -6.8875rem;
   width: 13.775rem;
   height: 4.85rem;
-    /* background-image: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan14/hongbaogai.png); */
-	 background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/gaizi.png)no-repeat;
-	 /* background: url(../images/gaizi.png); */
+	 background: url(../common/image/gaizi.png)no-repeat;
   background-repeat: no-repeat;
 	background-position:0 0;
   background-size: 100%;
@@ -340,7 +323,7 @@ a:hover {
   top: 4.6rem;
   left: 50%;
   margin-left: -6.5rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan9/card.png) no-repeat center center;
+  background: url(../common/image/card.png) no-repeat center center;
   background-size: 100%;
   width: 13rem;
   height: 9.625rem;
@@ -369,7 +352,7 @@ a:hover {
 @keyframes chai_kai {
    0% {
    	transform: rotateX(30deg);
-   	background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/gaizi.png); 
+   	background-image: url(../common/image/gaizi.png); 
    	background-position: 0px 0;	
    	transform-style: preserve-3d;
    	
@@ -377,7 +360,7 @@ a:hover {
    }
    100% {
    	transform: rotateX(180deg);
-   	background-image: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/gaizi.png); 
+   	background-image: url(../common/image/gaizi.png); 
    	background-position: 0px 0;	
    	transform-style: preserve-3d;
    }
@@ -410,8 +393,7 @@ a:hover {
   top: 14rem;
   width: 12.425rem;
   height: 13.35rem;
-  /* background-image: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhan28/hongbaobg.png); */
-	 background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbaobg.png)no-repeat; 
+	 background: url(../common/image/hongbaobg.png)no-repeat; 
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 1;
@@ -423,8 +405,7 @@ a:hover {
   top: 14rem;
   width: 12.425rem;
   height: 13.35rem;
-  /* background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhan28/hongbaobg.png) no-repeat; */
-	 background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/hongbaobg.png)no-repeat; 
+	 background: url(../common/image/hongbaobg.png)no-repeat; 
   background-size: 100%;
   z-index: 1;
 }
@@ -460,8 +441,7 @@ a:hover {
   height: 4.45rem;
   left: 2.4rem;
   top: 3.4rem;
-  /* background-image: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan14/myhand.png); */
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/myHand.png)no-repeat; 
+  background: url(../common/image/myHand.png)no-repeat; 
   background-size: contain;
   -webkit-animation: guideHand 1s linear infinite;
   animation: guideHand 1s linear infinite;
@@ -523,7 +503,7 @@ a:hover {
   border-top-right-radius: 0.75rem;
   border-top-left-radius: 0.75rem;
   margin-top: 0;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/activenotice.jpg) no-repeat;
+  background: url(../common/image/activenotice.jpg) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -602,7 +582,7 @@ a:hover {
   z-index: 3;
   width: 1.6em;
   height: 1.6em;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -664,7 +644,7 @@ a:hover {
 
 .no_num .img_zero {
   position: absolute;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/xuanzhuan9/zero.png) no-repeat center center;
+  background: url(../common/image/zero.png) no-repeat center center;
   background-size: 100%;
   width: 14.5rem;
   height: 9rem;
@@ -680,7 +660,7 @@ a:hover {
   margin-left: -0.8rem;
   width: 1.6rem;
   height: 1.6rem;
-  background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+  background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
   background-size: contain;
 }
 #hdgg_show-win-custom-pdd2 {
@@ -739,14 +719,14 @@ a:hover {
     z-index: 99;
     width: 1.5rem;
     height: 1.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/hdgg_close.png) 0 0 no-repeat;
+    background: url(../common/image/hdgg_close.png) 0 0 no-repeat;
     background-size: 100% 100%
 }
 
 #hdgg_show-win-custom-pdd2 .card-sunshine {
     width: 17.5rem;
     height: 17.5rem;
-    background: url(https://hdggcdn.bayimob.com/hdggstatic/common/prizebg_rotate.png) no-repeat 50%;
+    background: url(../common/image/prizebg_rotate.png) no-repeat 50%;
     background-size: 100% 100%;
     position: absolute;
     top: 62%;
@@ -762,7 +742,7 @@ a:hover {
 	position: absolute;
 	left: 0rem;
 	bottom: 0rem;
-	background: url(https://hdggcdn.bayimob.com/hdggstatic/kabao17/footer.png) no-repeat;
+	background: url(../common/image/footer.png) no-repeat;
 	background-size: 100%;
 	z-index: 2;
 }
